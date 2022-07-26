@@ -1,0 +1,472 @@
+@media(max-width: 1400px) {
+    .reviews-flex {
+        max-width: 570px;
+    }
+}
+
+
+
+@media(max-width: 1300px) {
+    .intro {
+        height: 590px;
+    }
+
+    .taxi {
+        width: 900px;
+        left: 225px;
+        top: -300px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .tariff-slider-btnnext {
+        right: -15px;
+    }
+
+    .tariff-slider-btnprev {
+        left: -15px;
+    }
+}
+
+
+
+@media(max-width: 1100px) {
+    .taxi {
+        left: 90px;
+    }
+
+    .tariff-slider {
+        max-width: 700px;
+    }
+
+    .tariff-slider-btnnext {
+        right: -20px;
+    }
+
+    .tariff-slider-btnprev {
+        left: -20px;
+    }
+}
+
+
+
+@media(max-width: 1000px) {
+    .intro {
+        height: 545px;
+    }
+
+    .taxi {
+        width: 800px;
+        left: 145px;
+        top: -265px;
+    }
+
+    .advantage-blok {
+        display: block;
+    }
+
+    .colum-element {
+        margin: 65px auto 70px;
+    }
+}
+
+
+
+
+@media(max-width: 970px) {
+    .nav {
+        display: none;
+    }
+
+    .menu__btn {
+        display: block;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav_toggle {
+        display: block;
+    }
+
+    .nav-link {
+        padding: 10px 20px;
+    }
+
+    .nav-link:first-child {
+        margin-top: 25px;
+    }
+
+    .nav-link:after {
+        top: 7px;
+    }
+
+    .intro {
+        height: 500px;
+    }
+
+    .taxi {
+        width: 680px;
+        left: 160px;
+        top: -210px;
+    }
+
+    .flex-rate {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .rate-title {
+        width: 60%;
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+@media(max-width: 900px) {
+    .rate-sudtitle {
+        font-size: 25px;
+    }
+
+    .rate__title {
+        font-size: 40px;
+    }
+
+    .rate-text-top {
+        font-size: 15px;
+    }
+
+    .rate-text {
+        font-size: 15px;
+    }
+
+    .cont-title {
+        font-size: 25px;
+    }
+
+    .cont-text {
+        font-size: 65px;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fotter-section {
+        text-align: center;
+    }
+
+    .fotter-titel {
+        text-align: center;
+    }
+
+    .fotter-text {
+        text-align: center;
+    }
+
+    .apps-android {
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 850px) {
+    .intro {
+        height: 430px;
+    }
+
+    .taxi {
+        width: 450px;
+        left: 135px;
+        top: -130px;
+    }
+}
+
+@media (max-width: 800px) {
+    .apps-flex {
+        justify-content: center;
+    }
+
+    .apps-img img {
+        display: none;
+    }
+
+    .apps-textblok {
+        padding: 70px 0 50px;
+    }
+
+    .app-title {
+        text-align: center;
+    }
+
+    .app-text {
+        text-align: center;
+    }
+}
+
+
+
+@media(max-width: 750px) {
+    .tariff-slider {
+        max-width: 355px;
+    }
+}
+
+
+
+@media(max-width: 700px) {
+    .rate-title {
+        width: 80%;
+    }
+
+    .rate__title {
+        font-size: 34px;
+    }
+
+    .reviews-flex {
+        max-width: 450px;
+    }
+
+    .reviews-box {
+        min-width: 350px;
+        padding: 30px 35px;
+    }
+
+    .client-name {
+        font-size: 20px;
+    }
+
+    .reviews-flex-btn {
+        top: 63%;
+        transform: translateY(-63%);
+    }
+}
+
+@media (max-width: 650px) {
+    .cont-text {
+        font-size: 55px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .inner-intro {
+        padding-top: 170px;
+    }
+
+    .intro-title {
+        font-size: 30px;
+    }
+
+    .intro-tel {
+        font-size: 45px;
+    }
+
+    .sudtitle {
+        font-size: 20px;
+    }
+
+    .taxi {
+        display: none;
+    }
+
+    .flex-rate {
+        padding-top: 50px;
+    }
+
+    .reviews-title {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 550px) {
+    .menu {
+        width: 45%;
+    }
+
+    .inner-intro {
+        padding-top: 145px;
+    }
+
+    .intro-title {
+        font-size: 25px;
+    }
+
+    .intro-tel {
+        font-size: 30px;
+    }
+
+    .sudtitle {
+        font-size: 15px;
+    }
+
+    .cont-title {
+        font-size: 22px;
+    }
+
+    .cont-text {
+        font-size: 45px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .rate__title {
+        font-size: 30px;
+    }
+
+    .colum-element {
+        width: 85%;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    .apps-title {
+        font-size: 20px;
+    }
+
+    .app-title {
+        font-size: 15px;
+    }
+
+    .appstore {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goodle-play {
+        margin-bottom: 20px;
+    }
+
+    .reviews-flex {
+        max-width: 400px;
+    }
+
+    .reviews-box {
+        min-width: 263px;
+        padding: 30px 25px;
+        box-sizing: border-box;
+    }
+
+    .reviews-text {
+        font-size: 12px;
+    }
+
+    .client {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .name {
+        margin-left: 15px;
+    }
+
+    .client-name {
+        font-size: 14px;
+    }
+
+    .cont-title {
+        font-size: 20px;
+    }
+
+    .cont-text {
+        font-size: 35px;
+    }
+}
+
+
+
+@media (max-width: 370px) {
+    .menu {
+        width: 55%;
+    }
+
+    .page_active {
+        transform: perspective(600px) translateX(-60%) rotateY(1deg);
+    }
+
+    .inner-intro {
+        padding-top: 170px;
+    }
+
+    .intro-title {
+        font-size: 20px;
+    }
+
+    .intro-tel {
+        font-size: 25px;
+    }
+
+    .sudtitle {
+        font-size: 15px;
+    }
+
+    .rate-sudtitle {
+        font-size: 20px;
+    }
+
+    .rate__title {
+        font-size: 25px;
+    }
+
+    .form {
+        width: 290px;
+    }
+
+    .form-title-h {
+        padding: 20px 13px;
+        font-size: 30px;
+    }
+
+    .form-flex {
+        display: inline-block;
+    }
+
+    .form-input {
+        width: 95%;
+        margin: 0px 15px 15px;
+    }
+
+    .colum-element {
+        height: 55px;
+        margin: 65px auto 90px;
+    }
+
+    .client-name {
+        text-align: center;
+    }
+
+    .cont-title {
+        font-size: 15px;
+    }
+
+    .cont-text {
+        font-size: 28px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .previu {
+        width: 288px;
+        height: 131px;
+        top: -60px;
+    }
+}

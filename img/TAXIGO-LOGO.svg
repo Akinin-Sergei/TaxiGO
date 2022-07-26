@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="52" viewBox="0 0 199 52">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        fill: #fff;
+        font-family: Montserrat;
+      }
+
+      .cls-2 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #ffc519;
+      }
+
+      .cls-4 {
+        font-size: 15px;
+      }
+    </style>
+  </defs>
+  <text id="TAXIGO_СЛУЖБА_ВЫЗОВА_ТАКСИ" data-name="TAXIGO СЛУЖБА ВЫЗОВА ТАКСИ" class="cls-1" x="0.403" y="35.929"><tspan class="cls-2">TAXI<tspan class="cls-3">GO</tspan></tspan><tspan class="cls-4" x="0.403" dy="16.005">СЛУЖБА ВЫЗОВА ТАКСИ</tspan></text>
+</svg>

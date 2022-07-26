@@ -1,0 +1,296 @@
+/* HEADER */
+.inner-intro {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.inner-intro._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* RATE  */
+.taxi {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.taxi._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.rate-sudtitle {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease 0.5s;
+}
+
+.rate-sudtitle._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.rate__title {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.rate__title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.rate-text-top {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.rate-text-top._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.rate-text {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.rate-text._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.btn {
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.btn._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.form {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.form._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* TARIF */
+.tariff-title {
+    transform: translate(0, -100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.tariff-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.tariff-slider {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease 0.2s;
+}
+
+.tariff-slider._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* ADVANTAGE */
+.advantage-title {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.advantage-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.advantage-icon {
+    transform: scale(0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.advantage-icon._active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.colum-title {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.colum-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.colum-text {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease 0.3s;
+}
+
+.colum-text._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* APP STORE */
+.apps-title {
+    transform: translate(0, -100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.apps-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.app-title {
+    transform: translate(0, -100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.app-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.app-text {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease 0.3s;
+}
+
+.app-text._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.goodle-play {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.goodle-play._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.app-store {
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.app-store._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.apps-img {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.apps-img._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* REVIEWS */
+.reviews-title {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.reviews-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.reviews-flex {
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.reviews-flex._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* BANNER */
+.cont-title {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.cont-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.cont-text {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease 0.3s;
+}
+
+.cont-text._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* FOOTER */
+.fotter-section {
+    transform: translate(-100%, 0);
+    opacity: 0;
+    transition: all .5s ease 0.2s;
+}
+
+.fotter-section._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}

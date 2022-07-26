@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/BG_prev.jpg" />
+    <title>TaxiGo</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animatiom.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/LOGO-icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/LOGO-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/LOGO-icon/favicon-32x32.png">
+    <link rel="manifest" href="img/LOGO-icon/site.webmanifest">
+    <link rel="mask-icon" href="img/LOGO-icon/safari-pinned-tab.svg" color="#818181">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!--PRELOADER-->
+    <div class="preloader">
+        <div class="preloader__content">
+            <div class="preloader__item__first"></div>
+            <div class="preloader__item__second"></div>
+            <div class="preloader__item__third"></div>
+            <div class="preloader__item__fourth"></div>
+            <div class="preloader__item__fifth"></div>
+            <div class="preloader__item__sixth"></div>
+            <div class="preloader__item__seventh"></div>
+            <div class="preloader__item__eighth"></div>
+            <div class="preloader__item__ninth"></div>
+            <div class="preloader__item__tenth"></div>
+        </div>
+    </div>
+
+
+    <!-- BURGER-MENU -->
+    <div class="menu">
+        <a class="menu__btn-close"></a>
+        <nav class="menu-list" id="nav">
+            <a class="nav-link menu-link" href="#" data-scroll="#home">Главная</a>
+            <a class="nav-link menu-link" href="#" data-scroll="#tarif">Тарифы</a>
+            <a class="nav-link menu-link" href="#" data-scroll="#advantage">Преимущества</a>
+            <a class="nav-link menu-link" href="#" data-scroll="#app">Приложение</a>
+            <a class="nav-link menu-link" href="#" data-scroll="#reviews">Отзывы</a>
+            <a class="nav-link menu-link" href="#" data-scroll="#contacts">Контакты</a>
+        </nav>
+    </div>
+
+    <!-- SCROLL TO TOP -->
+    <a class="back-to-top" href="#"></a>
+
+
+    <div class="page">
+        <!-- MENU -->
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-logo">
+                        <img src="img/TAXIGO-LOGO.svg" alt="">
+                    </div>
+                    <a class="menu__btn"></a>
+                    <nav class="nav" id="nav">
+                        <a class="nav-link" href="#" data-scroll="#home">Главная</a>
+                        <a class="nav-link" href="#" data-scroll="#tarif">Тарифы</a>
+                        <a class="nav-link" href="#" data-scroll="#advantage">Преимущества</a>
+                        <a class="nav-link" href="#" data-scroll="#app">Приложение</a>
+                        <a class="nav-link" href="#" data-scroll="#reviews">Отзывы</a>
+                        <a class="nav-link" href="#" data-scroll="#contacts">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- MAIN -->
+        <div class="intro" id="intro">
+            <div class="container">
+                <div class="inner-intro _anim-items _anim-no-hide">
+                    <h1 class="intro-title">вызови такси сейчас</h1>
+                    <a class="intro-tel" href="tel:+79999999999">+7 (999) 999-99-99</a>
+                    <a class="sudtitle" href="TaxiGo.html">www.taxi_go.ru</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- RATE -->
+        <section class="rate" id="home">
+            <div class="container">
+                <img class="taxi _anim-items _anim-no-hide" src="img/taxi.png" alt="">
+                <div class="flex-rate">
+                    <div class="rate-title">
+                        <h3 class="rate-sudtitle _anim-items">лучший в городе</h3>
+                        <h1 class="rate__title _anim-items">надежная служба <br>такси в москве</h1>
+                        <p class="rate-text-top _anim-items">Один из крупнейших сервисов заказа такси, доставки,
+                            грузоперевозок и других
+                            услуг. Работает более чем в 1000 населенных пунктах мира.</p>
+                        <p class="rate-text _anim-items">Стать партнером сервиса можно в любом городе, где есть «TaxiGo»
+                            и
+                            филиал вашей
+                            компании.</p>
+                        <button class="btn _anim-items" type="button">Подробнее</button>
+                    </div>
+                    <form class="form _anim-items" action="/" method="post">
+                        <div class="form-title">
+                            <h2 class="form-title-h">Закажи <strong class="strong-color">такси</strong></h2>
+                        </div>
+                        <div class="form-win">
+                            <div class="form-flex">
+                                <div class="form-group">
+                                    <input class="form-input" id="name" type="text" name="name" placeholder="Ваше имя">
+                                    <input class="form-input" id="surname" type="text" name="name"
+                                        placeholder="Ваша фамилия">
+                                    <input class="form-input" id="phone" type="tel" placeholder="Ваш телефон">
+                                    <input class="form-input" type="email" name="e-mail" placeholder="Ваш e-mail">
+                                    <input class="form-input" id="adress-A" type="text" name="name"
+                                        placeholder="Ваш адрес">
+                                    <input class="form-input" id="adress-B" type="text" name="name"
+                                        placeholder="Куда поедим?">
+                                    <textarea class="form-textarea" name="text" placeholder="Сообщение"></textarea>
+                                </div>
+                            </div>
+                            <button class="form-btn" id="form-btn" type="button">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- TARIF -->
+        <section class="choose-tariff" id="tarif">
+            <div class="container">
+                <div class="tariff-title _anim-items">
+                    <h1>Выбери <br>тариф</h1>
+                </div>
+                <div class="tariff__inner">
+                    <div class="tariff-slider _anim-items">
+                        <div class="scroll-die">
+                            <img class="previu" src="img/taxi.png" alt="">
+                            <h1 class="scroll-title">эконом</h1>
+                            <p class="scroll-description">Тариф эконом класса включает в себя автомобиль среднего
+                                ценового
+                                сигмента с некоторыми удобствами.</p>
+                            <h3 class="price">от 59 &#x20BD;</h3>
+                            <button class="scroll-btn" type="button">Выбрать</button>
+                            <img class="marker" src="img/star_marker.png" alt="">
+                        </div>
+
+                        <div class="scroll-die scroll-die-hit">
+                            <img class="previu" src="img/taxi.png" alt="">
+                            <h1 class="scroll-title">комфорт</h1>
+                            <p class="scroll-description">Тариф комфорт включает в себя автомобиль среднего ценового
+                                сигмента со всеми удобствами.</p>
+                            <h3 class="price">от 85 &#x20BD;</h3>
+                            <button class="scroll-btn" type="button">Выбрать</button>
+                            <img class="marker" src="img/star_marker.png" alt="">
+                        </div>
+
+                        <div class="scroll-die">
+                            <img class="previu" src="img/taxi.png" alt="">
+                            <h1 class="scroll-title">детский</h1>
+                            <p class="scroll-description">Тариф детский включает в себя автомобиль оборудованный детским
+                                креслом.</p>
+                            <h3 class="price">от 112 &#x20BD;</h3>
+                            <button class="scroll-btn" type="button">Выбрать</button>
+                            <img class="marker" src="img/star_marker.png" alt="">
+                        </div>
+
+                        <div class="scroll-die">
+                            <img class="previu" src="img/taxi.png" alt="">
+                            <h1 class="scroll-title">самый быстрый</h1>
+                            <p class="scroll-description">Алгоритм этого тарифа построен так, что к Вам подьедит
+                                водитель,
+                                находящийся ближе всего.</p>
+                            <h3 class="price">от 120 &#x20BD;</h3>
+                            <button class="scroll-btn" type="button">Выбрать</button>
+                            <img class="marker" src="img/star_marker.png" alt="">
+                        </div>
+
+                        <div class="scroll-die">
+                            <img class="previu" src="img/medium.png" alt="">
+                            <h1 class="scroll-title">Грузовой</h1>
+                            <p class="scroll-description">Тариф грузовой включает в себя автомобиль типа "Газель" для
+                                перевозки вещей и грузов.</p>
+                            <h3 class="price">от 300 &#x20BD;</h3>
+                            <button class="scroll-btn" type="button">Выбрать</button>
+                            <img class="marker" src="img/star_marker.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ADVANTAGE -->
+        <section class="advantage" id="advantage">
+            <div class="container">
+                <div class="advantage-box">
+                    <h1 class="advantage-title _anim-items">мы работаем <br>для вас</h1>
+                    <div class="advantage-blok">
+                        <div class="colum">
+                            <div class="colum-element">
+                                <img class="advantage-icon _anim-items" src="img/car_front.png" alt="">
+                                <div class="text-blok">
+                                    <h3 class="colum-title _anim-items">Удобный сервис</h3>
+                                    <p class="colum-text _anim-items">Различные способы заказать машину: по телефону,
+                                        через
+                                        приложение
+                                        или сайт.</p>
+                                </div>
+                            </div>
+                            <div class="colum-element">
+                                <img class="advantage-icon _anim-items" src="img/phone-call.png" alt="">
+                                <div class="text-blok">
+                                    <h3 class="colum-title _anim-items">Разнообразие тарифов</h3>
+                                    <p class="colum-text _anim-items">Большой выбор тарифов: для поездок каждый день и
+                                        на
+                                        деловые
+                                        встречи</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colum">
+                            <div class="colum-element">
+                                <img class="advantage-icon _anim-items" src="img/call-chat.png" alt="">
+                                <div class="text-blok">
+                                    <h3 class="colum-title _anim-items">Удобство заказа</h3>
+                                    <p class="colum-text _anim-items">Удобство заказа: известная заранее цена, быстрая
+                                        подача автомобиля
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="colum-element">
+                                <img class="advantage-icon _anim-items" src="img/calendar.png" alt="">
+                                <div class="text-blok">
+                                    <h3 class="colum-title _anim-items">Настройте свою поездку</h3>
+                                    <p class="colum-text _anim-items">Предварительный заказ: за несколько часов или дней
+                                        до
+                                        поездки</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- APP STORE -->
+        <section class="apps" id="app">
+            <div class="container">
+                <div class="apps-title _anim-items">
+                    <h1>загрузи<br>наше приложение</h1>
+                </div>
+                <div class="apps-flex">
+                    <div class="apps-textblok">
+                        <div>
+                            <h3 class="app-title _anim-items">Скачай наше приложение И пользуйся сервисом бесплатно!
+                            </h3>
+                            <p class="app-text _anim-items">Скачайте приложение с Google play или App store и
+                                накапливайте
+                                баллы,
+                                которые можно обменять на бесплатные поездки. </p>
+                        </div>
+                        <div class="appstore">
+                            <a href="https://play.google.com/store;?hl=ru&gl=US" target="_blank">
+                                <img class="goodle-play _anim-items" src="img/Google-Play.png" alt="">
+                            </a>
+                            <a href="https://www.apple.com/ru/app-store/" target="_blank">
+                                <img class="app-store _anim-items" src="img/App-Store.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="apps-img _anim-items">
+                        <img src="img/App.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- REVIEWS -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <div class="reviews-title _anim-items">
+                    <h1>отзывы и комментарии<br>наших клиентов</h1>
+                </div>
+                <div class="reviews-flex _anim-items">
+                    <div class="reviews-box">
+                        <p class="reviews-text">Использовал ваш сервис в первый раз. Остался очень доволен поездкой.
+                            Водитель очень аккуратно вёл машину на протяжении всей поездки. По состоянии...</p>
+                        <div class="client">
+                            <img class="client-img" src="img/Men_1.png" alt="">
+                            <div class="name">
+                                <p class="client-name">Иван Иванов</p>
+                                <div class="rateYo" data-rateyo-rating="5"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-box">
+                        <p class="reviews-text">Постоянно пользуюсь этой службой такси. Всегда приезжают быстро, но вот
+                            в
+                            дороге едут очень медленно(</p>
+                        <div class="client">
+                            <img class="client-img" src="img/Men_2.png" alt="">
+                            <div class="name">
+                                <p class="client-name">Антон Антонов</p>
+                                <div class="rateYo" data-rateyo-rating="4"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-box">
+                        <p class="reviews-text">Ужасная служба, совершенно неадекватная установка цен, ехали в гости за
+                            69
+                            рублей в воскресенье вечером в пределах одного района, машина не ...</p>
+                        <div class="client">
+                            <img class="client-img" src="img/Men_3.png" alt="">
+                            <div class="name">
+                                <p class="client-name">Александр Илюшкин</p>
+                                <div class="rateYo" data-rateyo-rating="1"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-box">
+                        <p class="reviews-text">Сразу дозвонился, со мной вежливо общались, время подачи машины - как и
+                            сказали и куда надо. Цена очень адекватная. Водитель по ходу движения ...</p>
+                        <div class="client">
+                            <img class="client-img" src="img/Men_4.png" alt="">
+                            <div class="name">
+                                <p class="client-name">Марк Карпов</p>
+                                <div class="rateYo" data-rateyo-rating="4"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- BANNER -->
+        <section class="cont" id="contacts">
+            <div class="container">
+                <h1 class="cont-title _anim-items">Мы готовы принять ваш заказ в любое время!</h1>
+                <a class="cont-text _anim-items" href="tel:+79999999999">+7 (999) 999-99-99</a>
+            </div>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="fotter">
+            <div class="container">
+                <div class="footer-flex">
+                    <div class="fotter-section _anim-items">
+                        <div class="fotter-titel">
+                            <h3>О службе вызова</h3>
+                        </div>
+                        <div class="fotter-text">
+                            <p>Один из крупнейших сервисов заказа такси, доставки, грузоперевозок и других услуг.
+                                Работает
+                                более чем в 1000 населенных пунктах мира.</p>
+                        </div>
+                        <div class="social">
+                            <img class="social-icon" src="img/FB_icon.png" alt="">
+                            <img class="social-icon" src="img/instagram_icon.png" alt="">
+                            <img class="social-icon" src="img/Twitter_icon.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="fotter-section _anim-items">
+                        <div class="fotter-titel">
+                            <h3>наше приложение</h3>
+                        </div>
+                        <div class="fotter-text">
+                            <p>Загрузи наше бесплатное приложение и пользуйся сервисом с удобством.</p>
+                        </div>
+                        <div class="apps-android">
+                            <p class="apps-android-text">android</p>
+                            <img class="apps-android-icon" src="img/Android_icon.png" alt="">
+                        </div>
+                        <div class="apps-android">
+                            <p class="apps-android-text">IOS</p>
+                            <img class="apps-android-icon" src="img/APPLE_icon.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="fotter-section _anim-items">
+                        <div class="fotter-titel">
+                            <h3>контакты</h3>
+                        </div>
+                        <div class="adress">
+                            <div class="fotter-contacts">
+                                <img class="contacts-icon" src="img/locate.png" alt="">
+                                <p class="contacts-text">Москва, ул. Земляной вал, д.16/2 стр.5</p>
+                            </div>
+                            <div class="fotter-contacts">
+                                <img class="contacts-icon" src="img/phone.png" alt="">
+                                <p class="contacts-text">+7 (999) 999-99-99</p>
+                            </div>
+                            <div class="fotter-contacts">
+                                <img class="contacts-icon" src="img/mail_icon.png" alt="">
+                                <p class="contacts-text">info.taxi_go@mail.ru</p>
+                            </div>
+                            <div class="fotter-contacts">
+                                <img class="contacts-icon" src="img/global-internet.png" alt="">
+                                <p class="contacts-text">www.taxi_go.ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrighti">copyright 2022</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
